@@ -1,0 +1,13 @@
+#################
+## Eclipse
+#################
+
+.metadata/
+RemoteSystemsTempFiles/
+Debug/
+Release/
+
+#.project
+#.cproject
+#.classpath
+
