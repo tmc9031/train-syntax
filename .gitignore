@@ -2,12 +2,12 @@
 ## Eclipse
 #################
 
-.metadata/
-RemoteSystemsTempFiles/
+/.metadata/
+/RemoteSystemsTempFiles/
 Debug/
 Release/
 
 #.project
 #.cproject
 #.classpath
-
+#.pydevproject
