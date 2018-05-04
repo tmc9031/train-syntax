@@ -17,9 +17,20 @@
 
 int main(void) {
 
+	unsigned int buf[10] = {0x34, 0x45, 0x56};
+	char str[30];
+
+	memset(str, 0, sizeof(str));
+	int i=0;
+	for(i=0; i<10; i++)
+	{
+		sprintf(str, "%s%02x ", str, buf[i]);
+	}
+	puts(str);
+
 	printf("<%d> %d\n", __LINE__, sizeof(STRING)); //is 2, because include \0
 
-	char str[100] = "123";
+	char cstr[100] = "123";
 	char *str_p = NULL;
 	str_p = strtok(str, ",");
 
